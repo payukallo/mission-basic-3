@@ -2,7 +2,7 @@
 @import url("./token.css");
 
 /* Heading */
-html {
+:root {
   font-size: 16px;
 }
 
