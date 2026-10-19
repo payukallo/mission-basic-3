@@ -280,28 +280,27 @@ footer {
     gap: 20px;
   }
 
-  body .heading-1 {
-    font-size: 24px;
+  main .heading-1 {
+    font-size: 1.5rem;
   }
 
-  body .heading-3 {
-    font-size: 20px;
+  main .heading-3 {
+    font-size: 1.25rem;
   }
 
-  body .body-large-medium {
-    font-size: 12px;
+  main .heading-6 {
+    font-size: 0.875rem;
   }
 
-   body .body-large-regular {
-    font-size: 12px;
+  main .body-large-medium,
+  main .body-large-regular,
+  main .body-medium-medium,
+  main .body-small-regular {
+    font-size: 0.75rem;
   }
 
-  body .body-medium-bold {
+  main .body-medium-bold {
     font-weight: 500;
-  }
-
-  body .body-medium-medium {
-    font-size: 12px;
   }
 
   nav {

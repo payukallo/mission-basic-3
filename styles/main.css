@@ -2,37 +2,40 @@
 @import url("./token.css");
 
 /* Heading */
+html {
+  font-size: 16px;
+}
 
 .heading-1 {
   font-family: "Lato";
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .heading-2 {
   font-family: "Lato";
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .heading-3 {
   font-family: "Lato";
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
 }
 .heading-4 {
   font-family: "Lato";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .heading-5 {
   font-family: "Lato";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .heading-6 {
   font-family: "Lato";
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 /* Body */
@@ -40,7 +43,7 @@
 .body-large-bold {
   font-family: Lato;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -48,7 +51,7 @@
 .body-large-semiBold {
   font-family: Lato;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -56,7 +59,7 @@
 .body-large-medium {
   font-family: Lato;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -64,7 +67,7 @@
 .body-large-regular {
   font-family: Lato;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -72,7 +75,7 @@
 .body-medium-bold {
   font-family: Lato;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -80,7 +83,7 @@
 .body-medium-semiBold {
   font-family: Lato;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -88,7 +91,7 @@
 .body-medium-medium {
   font-family: Lato;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -96,7 +99,7 @@
 .body-medium-regular {
   font-family: Lato;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -104,7 +107,7 @@
 .body-small-bold {
   font-family: Lato;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -112,7 +115,7 @@
 .body-small-semiBold {
   font-family: Lato;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -120,7 +123,7 @@
 .body-small-medium {
   font-family: Lato;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -128,7 +131,7 @@
 .body-small-regular {
   font-family: Lato;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -136,7 +139,7 @@
 .caption-1-bold {
   font-family: Lato;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -144,7 +147,7 @@
 .caption-1-semiBold {
   font-family: Lato;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -152,7 +155,7 @@
 .caption-1-medium {
   font-family: Lato;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -160,7 +163,7 @@
 .caption-1-regular {
   font-family: Lato;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
@@ -168,28 +171,28 @@
 .caption-2-bold {
   font-family: Lato;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
 .caption-2-semiBold {
   font-family: Lato;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
 .caption-2-medium {
   font-family: Lato;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }
 .caption-2-regular {
   font-family: Lato;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 140%;
   letter-spacing: 0.2px;
 }

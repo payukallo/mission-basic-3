@@ -92,16 +92,8 @@ a {
 }
 
 @media (max-width: 580px), (max-height: 900px) {
-  body .heading-3 {
-    font-size: 18px;
-  }
-
-  body .body-medium-regular,
-  body .body-large-medium,
-  body .body-medium-medium,
-  body .body-medium-semiBold,
-  body .body-small-medium {
-    font-size: 10px;
+  :root {
+    font-size: 45%;
   }
 
   .container {
