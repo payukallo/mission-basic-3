@@ -341,12 +341,12 @@ footer {
 
   .head {
     width: 100%;
-    padding: 25px;
+    padding: 18px;
     gap: 25px;
   }
 
   .head-text {
-    width: 80%;
+    width: 100%;
     height: auto;
     gap: 10px;
   }
