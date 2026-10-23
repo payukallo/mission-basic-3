@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
+    <form action="" method="">
       <div class="container">
         <div class="logo">
           <img
@@ -22,31 +23,37 @@
           <p class="body-medium-regular">Selamat datang!</p>
         </div>
         <div class="userName body-large-medium">
-          <label for="userName">Username</label>
+          <label for="newUserName">Username</label>
           <input
             class="body-medium-regular"
-            id="userName"
+            id="newUserName"
             type="text"
+            name="newUserName"
             placeholder="Masukkan username"
+            required
           />
         </div>
         <div class="password body-large-medium">
-          <label for="password">Kata Sandi</label>
+          <label for="newPassword">Kata Sandi</label>
           <input
             class="body-medium-regular"
-            id="password"
+            id="newPassword"
             type="password"
+            name="newPassword"
             placeholder="Masukkan kata sandi"
+            required
           />
         </div>
         <div class="password-container">
           <div class="password body-large-medium">
-            <label for="password">Konfirmasi Kata Sandi</label>
+            <label for="confirmNewPassword">Konfirmasi Kata Sandi</label>
             <input
               class="body-medium-regular"
-              id="password"
+              id="confirmNewPassword"
               type="password"
+              name="confirmNewPassword"
               placeholder="Masukkan kata sandi"
+              required
             />
           </div>
           <div class="account body-medium-regular">
@@ -57,17 +64,15 @@
           </div>
         </div>
         <div class="login body-medium-semiBold">
-          <button class="body-medium-semiBold" id="regis" >Daftar</button>
+          <button class="body-medium-semiBold regis" type="submit">Daftar</button>
           <span class="body-small-medium">Atau</span>
 
           <button class="google-login body-medium-semiBold">
-            <img
-              src="./assets/logo/google.png"
-              width="18px"
-            />
-            Daftar dengan Goggle
+            <img src="./assets/logo/google.png" width="18px" />
+            Daftar dengan Google
           </button>
         </div>
       </div>
+    </form>
   </body>
 </html>

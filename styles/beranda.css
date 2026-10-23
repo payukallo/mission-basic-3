@@ -237,6 +237,7 @@ footer {
   gap: 26px;
   width: 251px;
   justify-content: center;
+  color: var(--text-light-secondary);
 }
 
 .foot-logo img {

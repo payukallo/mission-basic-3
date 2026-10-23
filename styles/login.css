@@ -79,7 +79,7 @@ button {
   gap: 8px;
 }
 
-#log {
+.log {
   background-color: var(--extra-background);
 }
 

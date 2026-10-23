@@ -75,7 +75,7 @@ button {
   gap: 8px;
 }
 
-#regis {
+.regis {
   background-color: var(--extra-background);
 }
 

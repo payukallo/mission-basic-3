@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
+    <form action="" method="">
       <div class="container">
         <div class="logo">
           <img
@@ -27,7 +28,9 @@
             class="body-medium-regular"
             id="userName"
             type="text"
+            name="userName"
             placeholder="Masukkan username"
+            required
           />
         </div>
         <div class="password-container">
@@ -37,7 +40,9 @@
               class="body-medium-regular"
               id="password"
               type="password"
+              name="password"
               placeholder="Masukkan kata sandi"
+              required
             />
           </div>
           <div class="newAccount body-medium-regular">
@@ -49,17 +54,17 @@
           </div>
         </div>
         <div class="login">
-          <button class="body-medium-semiBold" id="log">Masuk</button>
+          <button class="body-medium-semiBold log" type="submit">
+            Masuk
+          </button>
           <span class="body-small-medium">Atau</span>
 
           <button class="google-login body-medium-semiBold">
-            <img
-              src="./assets/logo/google.png"
-              width="18px"
-            />
-            Masuk dengan Goggle
+            <img src="./assets/logo/google.png" width="18px" />
+            Masuk dengan Google
           </button>
         </div>
       </div>
+    </form>
   </body>
 </html>
